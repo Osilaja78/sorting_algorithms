@@ -4,7 +4,7 @@
  * swap - swaps two elements.
  * @a: element a
  * @b: element b
- * 
+ *
  * Return: nothing.
 */
 void swap(int *a, int *b)
@@ -19,7 +19,8 @@ void swap(int *a, int *b)
  * @array: array to be partitioned
  * @low: low index
  * @high: high index
- * 
+ * @size: size of the array
+ *
  * Return: index of the partition.
 */
 int lomuto_partition(int *array, int low, int high, size_t size)
@@ -49,10 +50,11 @@ int lomuto_partition(int *array, int low, int high, size_t size)
 }
 
 /**
- * sort_function - quick sort function helper.
+ * quick_sort_helper - quick sort function helper.
  * @array: array to be partitioned
  * @low: low index
  * @high: high index
+ * @size: size of the array
  *
  * Return: nothing.
 */
