@@ -4,7 +4,7 @@
  * swap - swaps two elements.
  * @a: element a
  * @b: element b
- * 
+ *
  * Return: nothing.
 */
 void swap(int *a, int *b)
@@ -50,5 +50,4 @@ void shell_sort(int *array, size_t size)
 		interval = (interval - 1) / 3;
 		print_array(array, size);
 	}
-		
 }
